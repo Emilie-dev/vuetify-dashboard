@@ -55,6 +55,10 @@ export default {
 					label: 'dashboard',
 					url: '/dashboard',
 				},
+				{
+					label: 'employees',
+					url: '/employees',
+				},
 			],
 		};
 	},

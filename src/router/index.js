@@ -29,6 +29,11 @@ const routes = [
 		name: 'dashboard',
 		component: () => import('../views/Dashboard.vue'),
 	},
+	{
+		path: '/employees',
+		name: 'employees',
+		component: () => import('../views/Employees.vue'),
+	},
 ];
 
 const router = new VueRouter({
